@@ -1,2 +1,0 @@
-# htmlsemantic4
- htmlsemanticsampleoutput
