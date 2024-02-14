@@ -1,21 +1,16 @@
-html, body, header, nav, main, article, section, footer {
-    margin: 0;
-    padding: 0;
-}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    text-align: center;
+    background-image: url(backgrnd.webp);
+
 }
 
 header {
-    background-color:gray;
+    background-image: url(backgrnd.webp);
     color: white;
     padding: 15px ;
     text-align: center;
-}
-
-nav ul {
-    list-style: none;
 }
 
 nav ul li {
@@ -25,7 +20,6 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    text-decoration: none;
 }
 nav ul a:hover{
     color: yellow;
@@ -48,10 +42,9 @@ figcaption {
 }
 
 footer {
-    background-color:gray;
+    background-image: url(backgrnd.webp);
     color:white;
     padding: 15px 0;
-    text-align: center;
 }
 
 footer a {
@@ -61,7 +54,7 @@ footer a {
 
 
 article:nth-child(even) {
-    background-color: white;
+    background-image: url(backgrnd.webp);
     padding: 15px;
     border-radius: 4px;
 }
@@ -82,5 +75,5 @@ footer::before {
     transform: translateX(-50%);
     width: 50px;
     height: 2px;
-    background-color:white;
+    background-image: url(backgrnd.webp);
 }
